@@ -1,4 +1,17 @@
 export default {
+    personalInfos: {
+        name: "Samuel Billaud",
+        job: "Développeur Front-end",
+        company: {
+            name: "AB Tasty",
+            site: "https://www.abtasty.com/fr/"
+        },
+        socialNetwork: {
+            github: "https://github.com/samuelbillaud",
+            linkedin: "https://fr.linkedin.com/in/samuel-billaud-01975a49",
+            email: "samuel.billaud1990@gmail.com"
+        }
+    },
     projects: [
         {
             title: "Organic",
@@ -11,7 +24,7 @@ export default {
             skills: ["html5", "css3", "jquery", "responsive design"],
             year: "2015",
             link: "http://www.portraitdailleurs-coiffure.fr/",
-            others: "Agence Web - Naviciel"
+            other: "Agence Web - Naviciel"
         },
         {
             title: "Arthur & les Arbres",
